@@ -1,0 +1,17 @@
+{
+  "name": "tucana.app-fund",
+  "description": "Tucána | Share your rides in Costa Rica",
+  "scripts": {},
+  "env": {},
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "mars/create-react-app"
+    }
+  ]
+}

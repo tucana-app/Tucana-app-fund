@@ -1,0 +1,29 @@
+// Override default variables before the import
+$theme-colors: (
+  "primary": $blue,
+  "secondary": $secondary,
+  "success": $brand-1,
+  "info": $info,
+  "warning": $orange,
+  "danger": $red,
+  "light": $light,
+  "dark": $dark,
+);
+
+$navbar-light-color: $dark;
+$navbar-light-hover-color: rgba($brand-1, 0.7);
+$navbar-light-active-color: $brand-1;
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/utilities";
+
+$btn-border-radius: $border-radius-pill;
+$btn-border-radius-sm: $border-radius-pill;
+$btn-border-radius-lg: $border-radius-pill;
+
+$input-border-radius: $border-radius-pill;
+$input-border-radius-sm: $border-radius-pill;
+$input-border-radius-lg: $border-radius-pill;
+
+$form-select-border-radius: $border-radius-pill;

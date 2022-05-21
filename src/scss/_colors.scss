@@ -1,0 +1,30 @@
+// Custom colors
+
+$brand-1: #2ed98d;
+$brand-2: #151515;
+$dark: #212529;
+$blue: #3792d3;
+$orange: #ffa836;
+$red: #f44200;
+
+$grey: #545454;
+$light-grey: #a6a6a6;
+
+// Default Bootstrap colors
+
+$primary: #0d6efd;
+$secondary: #6c757d;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$black: #000;
+$white: #fff;
+
+.bg-light {
+  background-color: rgba($light, 1);
+}
+
+.bg-dark {
+  background-color: rgba($dark, 1);
+}

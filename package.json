@@ -1,27 +1,62 @@
 {
-  "name": "tucana-app-fund",
-  "version": "0.1.0",
-  "private": true,
+  "name": "tucana.app-fund",
+  "version": "1.0.0",
+  "description": "Tucána | Share your rides in Costa Rica",
+  "private": false,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "@csstools/normalize.css": "^11.0.1",
+    "@googlemaps/js-api-loader": "^1.14.0",
+    "@primer/octicons-react": "^17.0.0",
+    "@react-google-maps/api": "^2.8.1",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "dateformat": "^4.5.1",
+    "formik": "^2.2.9",
+    "hover.css": "^2.3.2",
+    "i18next": "^21.6.16",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-xhr-backend": "^3.2.2",
+    "libphonenumber-js": "^1.9.52",
+    "node-sass": "^7.0.1",
+    "react": "^16.14.0",
+    "react-bootstrap": "^2.0.0-beta.2",
+    "react-bootstrap-icons": "^1.8.2",
+    "react-country-flag": "^3.0.2",
+    "react-dom": "^16.14.0",
+    "react-https-redirect": "^1.1.0",
+    "react-i18next": "^11.11.2",
+    "react-phone-number-input": "^3.1.52",
+    "react-places-autocomplete": "^7.3.0",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "react-tabs": "^3.2.1",
+    "react-validation": "^3.0.7",
+    "reaptcha": "^1.12.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "rfs": "^9.0.4",
+    "use-places-autocomplete": "^2.0.0",
+    "validator": "^13.6.0",
+    "yup": "^0.32.9",
+    "yup-password": "^0.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-react-app": "^7.0.1",
+    "sass": "^1.35.2",
+    "sass-loader": "^7.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-scripts --max_old_space_size=4096 start",
+    "dev": "react-scripts start",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -34,5 +69,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "keywords": [
+    "carpool",
+    "costa rica",
+    "ride",
+    "share"
+  ],
+  "author": "Tucána",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tucana-app/tucana.app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tucana-app/tucana.app/issues"
   }
 }
