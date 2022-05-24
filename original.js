@@ -3,22 +3,14 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="row align-items-center mvh-100 py-5">
-          <div
-            className="col-12 col-md-6 text-center"
-            data-aos="fade-right"
-            data-aos-once="true"
-          >
+          <div className="col-12 col-md-6 text-center">
             <img
               src="<?php echo wp_get_attachment_url(11); ?>"
               alt=""
               className="img-top-banner img-fluid"
             />
           </div>
-          <div
-            className="col-12 col-md-6 py-5 ps-md-4 text-center text-md-left"
-            data-aos="fade-left"
-            data-aos-once="true"
-          >
+          <div className="col-12 col-md-6 py-5 ps-md-4 text-center text-md-left">
             <h2 className="text-success font-title">
               Ride.CR - Your companion for all your travels in Costa Rica
             </h2>
@@ -55,11 +47,7 @@ function App() {
       <div className="bg-light" id="start">
         <div className="container py-5">
           <div className="row align-items-center mb-3">
-            <div
-              className="col-12 col-md-8 col-lg-6 text-center"
-              data-aos="fade-right"
-              data-aos-once="true"
-            >
+            <div className="col-12 col-md-8 col-lg-6 text-center">
               <h1 className="text-success font-title text-uppercase">
                 The project
               </h1>
@@ -73,11 +61,7 @@ function App() {
                 see this page.
               </p>
             </div>
-            <div
-              className="col-12 col-md-4 col-lg-6 text-center"
-              data-aos="fade-left"
-              data-aos-once="true"
-            >
+            <div className="col-12 col-md-4 col-lg-6 text-center">
               <img
                 src="<?php echo wp_get_attachment_url(17); ?>"
                 alt=""
@@ -87,7 +71,7 @@ function App() {
             </div>
           </div>
           <hr className="w-50 mb-5 mx-auto" />
-          <div className="row" data-aos="fade-up" data-aos-once="true">
+          <div className="row">
             <div className="col-12 col-lg-6 text-center">
               <img
                 src="<?php echo wp_get_attachment_url(34); ?>"
@@ -147,11 +131,7 @@ function App() {
           </div>
         </div>
         <div className="row justify-content-center">
-          <div
-            className="col-12 col-md-4 text-center"
-            data-aos="fade-right"
-            data-aos-once="true"
-          >
+          <div className="col-12 col-md-4 text-center">
             <img
               src="<?php echo wp_get_attachment_url(29); ?>"
               width="250"
@@ -164,11 +144,7 @@ function App() {
             </h2>
             <h4 className="lead text-success mb-5 mb-md-0">CEO & Developer</h4>
           </div>
-          <div
-            className="col-12 col-md-4 text-center"
-            data-aos="fade-up"
-            data-aos-once="true"
-          >
+          <div className="col-12 col-md-4 text-center">
             <img
               src="<?php echo wp_get_attachment_url(33); ?>"
               width="250"
@@ -181,11 +157,7 @@ function App() {
               Associate & Designs
             </h4>
           </div>
-          <div
-            className="col-12 col-md-4 text-center"
-            data-aos="fade-left"
-            data-aos-once="true"
-          >
+          <div className="col-12 col-md-4 text-center">
             <img
               src="<?php echo wp_get_attachment_url(32); ?>"
               width="250"
@@ -210,11 +182,7 @@ function App() {
               </h1>
             </div>
           </div>
-          <div
-            className="row align-items-center mb-4 mb-md-0"
-            data-aos="slide-right"
-            data-aos-once="true"
-          >
+          <div className="row align-items-center mb-4 mb-md-0">
             <div className="col-12 col-md-4 text-center">
               <img
                 src="<?php echo wp_get_attachment_url(16); ?>"
@@ -295,12 +263,7 @@ function App() {
               </table>
             </div>
           </div>
-          <div
-            className="row mb-2"
-            data-aos="fade-up"
-            data-aos-once="true"
-            data-aos-delay="200"
-          >
+          <div className="row mb-2">
             <div className="col-12 text-center">
               <h3 className="font-title">
                 Help Costa Rica towards reducing the CO2 emission
@@ -316,12 +279,7 @@ function App() {
               </a>
             </div>
           </div>
-          <div
-            className="row mb-4"
-            data-aos="fade-up"
-            data-aos-once="true"
-            data-aos-delay="200"
-          >
+          <div className="row mb-4">
             <div className="col-12 text-center">
               <button
                 type="button"
@@ -341,11 +299,7 @@ function App() {
       </div>
 
       <div className="container py-5">
-        <div
-          className="row align-items-center"
-          data-aos="fade-up"
-          data-aos-once="true"
-        >
+        <div className="row align-items-center">
           <div className="col-12 text-center mb-3">
             <img
               src="<?php echo wp_get_attachment_url(18); ?>"
@@ -380,11 +334,7 @@ function App() {
         <div className="container">
           <div className="row mb-3"></div>
           <div className="row">
-            <div
-              className="col-12 col-md-6 text-center"
-              data-aos="fade-right"
-              data-aos-once="true"
-            >
+            <div className="col-12 col-md-6 text-center">
               <div className="col-12 text-center">
                 <h1 className="text-success text-uppercase">
                   Discover Ride.CR
@@ -422,11 +372,7 @@ function App() {
                 </i>
               </p>
             </div>
-            <div
-              className="col-12 col-md-6"
-              data-aos="fade-left"
-              data-aos-once="true"
-            >
+            <div className="col-12 col-md-6">
               <div className="col-12 text-center">
                 <h1 className="text-success text-uppercase">Task planning</h1>
               </div>
@@ -449,11 +395,7 @@ function App() {
 
       <div className="container py-5">
         <div className="row align-items-center">
-          <div
-            className="col-12 col-md-6 text-center mb-5 mb-md-0"
-            data-aos="slide-right"
-            data-aos-once="true"
-          >
+          <div className="col-12 col-md-6 text-center mb-5 mb-md-0">
             <h1 className="text-center text-success font-title text-uppercase mb-0">
               Get in touch with us
             </h1>
@@ -531,11 +473,7 @@ function App() {
               />
             </a>
           </div>
-          <div
-            className="col-12 col-md-6 text-center"
-            data-aos="slide-left"
-            data-aos-once="true"
-          >
+          <div className="col-12 col-md-6 text-center">
             <h1 className="text-center text-success font-title text-uppercase">
               Our newletter
             </h1>

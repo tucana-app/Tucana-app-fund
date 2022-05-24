@@ -25,10 +25,12 @@ function NavigationBar() {
           <Button onClick={() => changeLanguage("fr")} variant="white">
             <ReactCountryFlag countryCode="FR" className="mb-1" svg />
           </Button> */}
-          <div>
-            <h1 className="mb-0">Tucána</h1>
-            <span className="p lead mb-0">Crowdfunding</span>
-          </div>
+          <IndexLinkContainer to="/" className="cursor-pointer">
+            <div>
+              <h1 className="mb-0">Tucána</h1>
+              <span className="p lead mb-0">Crowdfunding</span>
+            </div>
+          </IndexLinkContainer>
           <a
             href="https://www.paypal.com/donate/?hosted_button_id=M4QRJF5GDHCKA"
             alt=""

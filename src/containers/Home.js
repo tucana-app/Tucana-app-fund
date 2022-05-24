@@ -15,6 +15,7 @@ import iPhone from "../assets/images/iPhone.png";
 import carbon from "../assets/images/carbon.png";
 import beach from "../assets/images/beach.jpg";
 import C02 from "../assets/images/C02.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   const { t } = useTranslation();
@@ -23,13 +24,7 @@ function Home() {
     <>
       <Container>
         <Row className="align-items-center mvh-100 py-5">
-          <Col
-            xs={12}
-            md={6}
-            className="text-center"
-            data-aos="fade-up"
-            data-aos-once="true"
-          >
+          <Col xs={12} md={6} className="text-center">
             <img
               src={trip}
               alt="Carpooling"
@@ -37,13 +32,7 @@ function Home() {
               width={300}
             />
           </Col>
-          <Col
-            xs={12}
-            md={6}
-            className="py-5 ps-md-4 text-center text-md-left"
-            data-aos="fade-up"
-            data-aos-once="true"
-          >
+          <Col xs={12} md={6} className="py-5 ps-md-4 text-center text-md-left">
             <h2 className="text-success font-title">
               Tucána - Your companion for all your travels in Costa Rica
             </h2>
@@ -80,14 +69,7 @@ function Home() {
       <div className="bg-light" id="start">
         <Container className="py-5">
           <Row className="align-items-center mb-3">
-            <Col
-              xs={12}
-              md={8}
-              lg={6}
-              className="text-center"
-              data-aos="fade-up"
-              data-aos-once="true"
-            >
+            <Col xs={12} md={8} lg={6} className="text-center">
               <h1 className="text-success font-title text-uppercase">
                 The project
               </h1>
@@ -101,14 +83,7 @@ function Home() {
                 see this page.
               </p>
             </Col>
-            <Col
-              xs={12}
-              md={4}
-              lg={6}
-              className="text-center"
-              data-aos="fade-up"
-              data-aos-once="true"
-            >
+            <Col xs={12} md={4} lg={6} className="text-center">
               <img
                 src={crowdfunding}
                 alt=""
@@ -120,7 +95,7 @@ function Home() {
 
           <hr className="w-50 mb-5 mx-auto" />
 
-          <Row data-aos="fade-up" data-aos-once="true">
+          <Row>
             <Col xs={12} lg={6} className="text-center">
               <img
                 src={handShake}
@@ -175,13 +150,7 @@ function Home() {
           </Col>
         </Row>
         <Row className="justify-content-center">
-          <Col
-            xs={12}
-            md={4}
-            className="text-center"
-            data-aos="fade-up"
-            data-aos-once="true"
-          >
+          <Col xs={12} md={4} className="text-center">
             <img
               src={benjamin}
               width="250"
@@ -194,13 +163,7 @@ function Home() {
             </h4>
           </Col>
 
-          <Col
-            xs={12}
-            md={4}
-            className="text-center"
-            data-aos="fade-up"
-            data-aos-once="true"
-          >
+          <Col xs={12} md={4} className="text-center">
             <img src={axel} width="250" alt="" className="img-fluid frame" />
             <h2 className="font-title font-big mb-0 mt-2">Axel</h2>
             <h4 className="lead text-success mb-5 mb-md-0">
@@ -208,13 +171,7 @@ function Home() {
             </h4>
           </Col>
 
-          <Col
-            xs={12}
-            md={4}
-            className="text-center"
-            data-aos="fade-up"
-            data-aos-once="true"
-          >
+          <Col xs={12} md={4} className="text-center">
             <img src={flora} width="250" alt="" className="img-fluid frame" />
             <h2 className="font-title font-big mb-0 mt-2">Flora</h2>
             <h4 className="lead text-success mb-5 mb-md-0">
@@ -233,11 +190,7 @@ function Home() {
               </h1>
             </Col>
           </Row>
-          <Row
-            className="align-items-center mb-5"
-            data-aos="fade-up"
-            data-aos-once="true"
-          >
+          <Row className="align-items-center mb-5">
             <Col xs={12} md={4} className="text-center">
               <img src={iPhone} alt="" width={200} className="img-fluid" />
             </Col>
@@ -318,12 +271,7 @@ function Home() {
               </Table>
             </Col>
           </Row>
-          <Row
-            className="mb-2"
-            data-aos="fade-up"
-            data-aos-once="true"
-            data-aos-delay="200"
-          >
+          <Row className="mb-2">
             <Col xs={12} className="text-center">
               <h3 className="font-title">
                 Help Costa Rica towards reducing the CO2 emission
@@ -341,12 +289,7 @@ function Home() {
               </a>
             </Col>
           </Row>
-          <Row
-            className="mb-4"
-            data-aos="fade-up"
-            data-aos-once="true"
-            data-aos-delay="200"
-          >
+          <Row className="mb-4">
             <Col xs={12} className="text-center">
               <Button
                 type="button"
@@ -356,23 +299,19 @@ function Home() {
                 <i className="far fa-question-circle me-2"></i>About your
                 contribution
               </Button>
-              <a href="/spendings" alt="">
+              <Link to="/spendings" alt="">
                 <Button variant="warning">
                   <i className="fas fa-search-dollar me-2"></i>Check our
                   spendings
                 </Button>
-              </a>
+              </Link>
             </Col>
           </Row>
         </Container>
       </div>
 
       <Container className="py-5">
-        <Row
-          className="align-items-center"
-          data-aos="fade-up"
-          data-aos-once="true"
-        >
+        <Row className="align-items-center">
           <Col xs={12} className="text-center mb-3">
             <img src={carbon} alt="" width={100} className="img-fluid" />
           </Col>
@@ -466,13 +405,7 @@ function Home() {
       <div className="bg-light py-5">
         <Container className="py-5">
           <Row className="align-items-center">
-            <Col
-              xs={12}
-              md={6}
-              className="text-center mb-5 mb-md-0"
-              data-aos="fade-up"
-              data-aos-once="true"
-            >
+            <Col xs={12} md={6} className="text-center mb-5 mb-md-0">
               <h1 className="text-center text-success font-title text-uppercase mb-0">
                 Get in touch with us
               </h1>
@@ -483,13 +416,7 @@ function Home() {
               <SocialIcons />
             </Col>
 
-            <Col
-              xs={12}
-              md={6}
-              className="text-center"
-              data-aos="fade-up"
-              data-aos-once="true"
-            >
+            <Col xs={12} md={6} className="text-center">
               <h1 className="text-center text-success font-title text-uppercase">
                 Our newletter
               </h1>
