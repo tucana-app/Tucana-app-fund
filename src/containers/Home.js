@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col, Button, Table, Modal } from "react-bootstrap";
-import { useTranslation } from "react-i18next";
 import SocialIcons from "../components/SocialIcons";
 
 import trip from "../assets/images/undraw_trip.svg";
@@ -18,8 +17,6 @@ import C02 from "../assets/images/C02.png";
 import { Link } from "react-router-dom";
 
 function Home() {
-  const { t } = useTranslation();
-
   return (
     <>
       <Container>
@@ -46,19 +43,13 @@ function Home() {
                 href="https://www.paypal.com/donate/?hosted_button_id=M4QRJF5GDHCKA"
                 alt=""
                 target="_blank"
-                className="btn btn-success btn-lg rounded-0"
+                className="btn btn-success btn-lg"
                 rel="noreferrer"
               >
-                <i className="fas fa-hand-holding-usd me-2"></i>
                 Contribute
               </a>
               <br />
-              <a
-                href="#start"
-                alt=""
-                className="btn btn-outline-success rounded-0 mt-3"
-              >
-                <i className="far fa-question-circle"></i>
+              <a href="#start" alt="" className="btn btn-outline-success mt-3">
                 Learn more
               </a>
             </div>
@@ -280,11 +271,10 @@ function Home() {
                 href="https://www.paypal.com/donate/?hosted_button_id=M4QRJF5GDHCKA"
                 alt=""
                 target="_blank"
-                className="rounded-0"
                 rel="noreferrer"
               >
                 <Button variant="success" size="lg">
-                  <i className="fas fa-hand-holding-usd me-2"></i>Contribute
+                  Contribute
                 </Button>
               </a>
             </Col>
@@ -295,15 +285,12 @@ function Home() {
                 type="button"
                 data-bs-toggle="modal"
                 data-bs-target="#modal"
+                className="me-2"
               >
-                <i className="far fa-question-circle me-2"></i>About your
-                contribution
+                About your contribution
               </Button>
               <Link to="/spendings" alt="">
-                <Button variant="warning">
-                  <i className="fas fa-search-dollar me-2"></i>Check our
-                  spendings
-                </Button>
+                <Button variant="warning">Check our spendings</Button>
               </Link>
             </Col>
           </Row>
@@ -357,7 +344,7 @@ function Home() {
               <h2 className="text-center">
                 <span>Website:</span>{" "}
                 <a
-                  href="https://ride.cr"
+                  href="https://tucana.app"
                   alt=""
                   target="_blank"
                   className="link-success"
@@ -459,10 +446,10 @@ function Home() {
                 href="https://www.paypal.com/donate/?hosted_button_id=M4QRJF5GDHCKA"
                 alt=""
                 target="_blank"
-                className="btn btn-success btn-lg rounded-0"
+                className="btn btn-success btn-lg"
                 rel="noreferrer"
               >
-                <i className="fas fa-hand-holding-usd me-2"></i>Contribute
+                Contribute
               </a>
             </Col>
           </Row>
@@ -517,7 +504,7 @@ function Home() {
             <div className="modal-footer">
               <button
                 type="button"
-                className="btn btn-danger rounded-0"
+                className="btn btn-danger"
                 data-bs-dismiss="modal"
               >
                 Close

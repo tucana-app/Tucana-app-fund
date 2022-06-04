@@ -1,17 +1,8 @@
 import React from "react";
 import { IndexLinkContainer } from "react-router-bootstrap";
-import { Navbar, Nav, Container, Row, Col, Button } from "react-bootstrap";
-import { SearchIcon, PlusCircleIcon, ZapIcon } from "@primer/octicons-react";
-import { useTranslation } from "react-i18next";
-import ReactCountryFlag from "react-country-flag";
+import { Navbar, Nav, Button } from "react-bootstrap";
 
 function NavigationBar() {
-  const { t, i18n } = useTranslation();
-
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
-
   return (
     <Navbar bg="white" variant="light">
       <Navbar.Collapse id="navigation-bar">
@@ -31,16 +22,27 @@ function NavigationBar() {
               <span className="p lead mb-0">Crowdfunding</span>
             </div>
           </IndexLinkContainer>
-          <a
-            href="https://www.paypal.com/donate/?hosted_button_id=M4QRJF5GDHCKA"
-            alt=""
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Button variant="success" size="lg">
-              Contribute
-            </Button>
-          </a>
+          <div>
+            <a
+              href="https://www.paypal.com/donate/?hosted_button_id=M4QRJF5GDHCKA"
+              alt=""
+              target="_blank"
+              rel="noreferrer"
+              className="me-2 hvr-grow"
+            >
+              <Button variant="success" size="lg">
+                Contribute
+              </Button>
+            </a>
+            <IndexLinkContainer
+              to="/spendings"
+              alt=""
+              size="lg"
+              className="hvr-grow"
+            >
+              <Button variant="warning">Our spendings</Button>
+            </IndexLinkContainer>
+          </div>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

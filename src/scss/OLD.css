@@ -169,19 +169,6 @@ body {
   height: 100px;
 }
 
-.wpcf7-form-control.wpcf7-submit {
-  @extend .btn;
-  @extend .btn-success;
-  @extend .btn-lg;
-  @extend .rounded-0;
-}
-
-.ajax-loader {
-  @extend .d-block;
-  @extend .mx-auto;
-  @extend .mt-3;
-}
-
 #logo-footer {
   width: 100px;
 }

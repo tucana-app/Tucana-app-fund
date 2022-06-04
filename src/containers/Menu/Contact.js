@@ -230,7 +230,6 @@ const Contact = () => {
                             onChange={handleChange}
                             isInvalid={!!errors.message}
                             isValid={touched.message && !errors.message}
-                            className="rounded-0"
                             rows="4"
                             required
                           />

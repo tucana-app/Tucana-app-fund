@@ -24,19 +24,13 @@ function App() {
                 href="https://www.paypal.com/donate/?hosted_button_id=M4QRJF5GDHCKA"
                 alt=""
                 target="_blank"
-                className="btn btn-success btn-lg rounded-0 text-white"
+                className="btn btn-success btn-lg text-white"
                 rel="noreferrer"
               >
-                <i className="fas fa-hand-holding-usd me-2"></i>
                 Contribute
               </a>
               <br />
-              <a
-                href="#start"
-                alt=""
-                className="btn btn-outline-success rounded-0 mt-3"
-              >
-                <i className="far fa-question-circle"></i>
+              <a href="#start" alt="" className="btn btn-outline-success mt-3">
                 Learn more
               </a>
             </div>
@@ -272,10 +266,10 @@ function App() {
                 href="https://www.paypal.com/donate/?hosted_button_id=M4QRJF5GDHCKA"
                 alt=""
                 target="_blank"
-                className="btn btn-success btn-lg rounded-0"
+                className="btn btn-success btn-lg"
                 rel="noreferrer"
               >
-                <i className="fas fa-hand-holding-usd me-2"></i>Contribute
+                Contribute
               </a>
             </div>
           </div>
@@ -283,15 +277,14 @@ function App() {
             <div className="col-12 text-center">
               <button
                 type="button"
-                className="btn btn-primary rounded-0"
+                className="btn btn-primary"
                 data-bs-toggle="modal"
                 data-bs-target="#modal"
               >
-                <i className="far fa-question-circle me-2"></i>About your
-                contribution
+                About your contribution
               </button>
-              <a href="/spendings" alt="" className="btn btn-warning rounded-0">
-                <i className="fas fa-search-dollar me-2"></i>Check our spendings
+              <a href="/spendings" alt="" className="btn btn-warning">
+                Check our spendings
               </a>
             </div>
           </div>
@@ -513,10 +506,10 @@ function App() {
                 href="https://www.paypal.com/donate/?hosted_button_id=M4QRJF5GDHCKA"
                 alt=""
                 target="_blank"
-                className="btn btn-success btn-lg rounded-0 text-white"
+                className="btn btn-success btn-lg text-white"
                 rel="noreferrer"
               >
-                <i className="fas fa-hand-holding-usd me-2"></i>Contribute
+                Contribute
               </a>
             </div>
           </div>
@@ -570,7 +563,7 @@ function App() {
             <div className="modal-footer">
               <button
                 type="button"
-                className="btn btn-danger rounded-0"
+                className="btn btn-danger"
                 data-bs-dismiss="modal"
               >
                 Close
