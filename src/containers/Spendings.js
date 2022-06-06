@@ -23,6 +23,7 @@ import invoice10 from "../assets/invoices/10.pdf";
 import invoice11 from "../assets/invoices/11.pdf";
 import invoice12 from "../assets/invoices/12.pdf";
 import invoice13 from "../assets/invoices/13.pdf";
+import invoice14 from "../assets/invoices/14.pdf";
 
 function Spendings(props) {
   var cat1total = 650;
@@ -41,7 +42,7 @@ function Spendings(props) {
   var cat2total = 250;
   var cat2name = "Website implementation (creation & hosting)";
   var cat2color = "success";
-  var cat2spent = [2.04, 7.0, 79.1, 11.3, 1.76, 7.07, 14.23, 0.86];
+  var cat2spent = [2.04, 7.0, 79.1, 11.3, 1.76, 7.07, 14.23, 0.86, 19.78];
   var totalCat2spent = cat2spent.reduce(
     (previousValue, currentValue) => previousValue + currentValue
   );
@@ -358,6 +359,23 @@ function Spendings(props) {
                     </a>
                   </td>
                   <td>3/06/2022</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>Namecheap email</td>
+                  <td>{buttonCat2}</td>
+                  <td>${cat2spent[8]}</td>
+                  <td>
+                    <a
+                      href={invoice14}
+                      target="_blank"
+                      rel="noopener 
+                                noreferrer"
+                    >
+                      <LinkExternalIcon size={24} />
+                    </a>
+                  </td>
+                  <td>6/06/2022</td>
                 </tr>
               </tbody>
             </Table>
