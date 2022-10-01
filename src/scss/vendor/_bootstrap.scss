@@ -18,6 +18,23 @@ $navbar-light-active-color: $brand-1;
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/utilities";
 
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-weight": (
+      property: font-weight,
+      class: fw,
+      values: (
+        light: $font-weight-light,
+        lighter: $font-weight-lighter,
+        normal: $font-weight-normal,
+        bold: 500,
+        bolder: $font-weight-bolder,
+      ),
+    ),
+  )
+);
+
 $btn-border-radius: $border-radius-pill;
 $btn-border-radius-sm: $border-radius-pill;
 $btn-border-radius-lg: $border-radius-pill;

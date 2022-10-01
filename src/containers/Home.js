@@ -8,8 +8,7 @@ import handShake from "../assets/images/handshake.png";
 import rocket from "../assets/images/rocket.png";
 import volcano from "../assets/images/volcano.jpg";
 import benjamin from "../assets/images/benjamin.png";
-import axel from "../assets/images/axel.png";
-import flora from "../assets/images/flora.png";
+import you from "../assets/images/you.png";
 import iPhone from "../assets/images/iPhone.png";
 import carbon from "../assets/images/carbon.png";
 import beach from "../assets/images/beach.jpg";
@@ -155,18 +154,13 @@ function Home() {
           </Col>
 
           <Col xs={12} md={4} className="text-center">
-            <img src={axel} width="250" alt="" className="img-fluid frame" />
-            <h2 className="font-title font-big mb-0 mt-2">Axel</h2>
+            <img src={you} width="250" alt="" className="img-fluid" />
+            <h2 className="font-title font-big mb-0 mt-2">You?</h2>
             <h4 className="lead text-success mb-5 mb-md-0">
-              Associate &amp; Designs
-            </h4>
-          </Col>
-
-          <Col xs={12} md={4} className="text-center">
-            <img src={flora} width="250" alt="" className="img-fluid frame" />
-            <h2 className="font-title font-big mb-0 mt-2">Flora</h2>
-            <h4 className="lead text-success mb-5 mb-md-0">
-              Associate &amp; Community manager
+              Do you want to be part of the project? Contact us at{" "}
+              <a href="mailto:info@tucana.app" alt="">
+                info@tucana.app
+              </a>
             </h4>
           </Col>
         </Row>
